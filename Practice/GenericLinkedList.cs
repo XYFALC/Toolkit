@@ -59,25 +59,25 @@ public class GenericList<T>
 
 }
 
-class TestGenericList
-{
+//class TestGenericList
+//{
 
 
-    static void Main()
-    {
-        // int is the type argument
-        GenericList<int> list = new GenericList<int>();
+//    static void Main()
+//    {
+//        // int is the type argument
+//        GenericList<int> list = new GenericList<int>();
 
-        for (int x = 0; x < 1000; x++)
-        {
-            list.AddHead(x);
+//        for (int x = 0; x < 1000; x++)
+//        {
+//            list.AddHead(x);
 
-        }
+//        }
 
-        foreach (int i in list)
-        {
-            System.Console.Write(i + " ");
-        }
-        System.Console.WriteLine("\nDone");
-    }
-}
+//        foreach (int i in list)
+//        {
+//            System.Console.Write(i + " ");
+//        }
+//        System.Console.WriteLine("\nDone");
+//    }
+//}

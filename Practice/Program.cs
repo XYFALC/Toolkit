@@ -1,9 +1,11 @@
-﻿namespace Program {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
+﻿//using Practice;
 
-        }
-    }
-}
+//namespace Program {
+//    public class Program
+//    {
+//        public static void Main(string[] args)
+//        {
+
+//        }
+//    }
+//}
