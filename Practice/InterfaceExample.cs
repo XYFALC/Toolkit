@@ -38,16 +38,16 @@ public static class UtilityManager {
     }
 }
 
-public class Program {
-    public static void Main(string[] args)
-    {
-        IOutputHandler ConsoleHandler = new ConsoleOutputHandler();
-        IOutputHandler FileHandler = new FileOutputHandler();
-        IOutputHandler DatabaseHandler = new DatabaseOutputHandler();
+//public class Program {
+//    public static void Main(string[] args)
+//    {
+//        IOutputHandler ConsoleHandler = new ConsoleOutputHandler();
+//        IOutputHandler FileHandler = new FileOutputHandler();
+//        IOutputHandler DatabaseHandler = new DatabaseOutputHandler();
 
-        ConsoleHandler.Write(UtilityManager.GenerateID(), "Output");
-        FileHandler.Write(UtilityManager.GenerateID(), "Output");
-        DatabaseHandler.Write(UtilityManager.GenerateID(), "Output");
+//        ConsoleHandler.Write(UtilityManager.GenerateID(), "Output");
+//        FileHandler.Write(UtilityManager.GenerateID(), "Output");
+//        DatabaseHandler.Write(UtilityManager.GenerateID(), "Output");
 
-    }
-}
+//    }
+//}

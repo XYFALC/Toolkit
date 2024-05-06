@@ -4,6 +4,7 @@ public class GenericList<T>
     // The nested class is also generic on T.
     private class Node
     {
+
         // T used in non-generic constructor.
         public Node(T t)
         {
@@ -55,8 +56,6 @@ public class GenericList<T>
             current = current.Next;
         }
     }
-
-
 }
 
 //class TestGenericList
